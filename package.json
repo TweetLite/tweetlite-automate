@@ -1,0 +1,33 @@
+{
+  "name": "twitbot-automate",
+  "version": "0.1.0",
+  "description": "twitbot automate middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c0b41/twitbot-automate.git"
+  },
+  "keywords": [
+    "twitbot",
+    "automate"
+  ],
+  "author": "c0b41",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/c0b41/twitbot-automate/issues"
+  },
+  "xo": {
+    "esnext": true,
+    "semicolon": false
+  },
+  "homepage": "https://github.com/c0b41/twitbot-automate#readme",
+  "dependencies": {
+    "duration-parser": "^1.0.2"
+  },
+  "devDependencies": {
+    "xo": "^0.16.0"
+  }
+}
