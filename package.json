@@ -20,7 +20,6 @@
     "url": "https://github.com/c0b41/twitbot-automate/issues"
   },
   "xo": {
-    "esnext": true,
     "semicolon": false
   },
   "homepage": "https://github.com/c0b41/twitbot-automate#readme",
