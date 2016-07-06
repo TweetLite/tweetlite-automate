@@ -5,10 +5,10 @@ exports.use = function () {
 		var time = dParser(args.interval) || dParser('30 minutes')
 		if (time < 900000) {
 			throw new Error('Time must be 15 minutes later')
-		} else if (args.message) {
-			throw new Error('Message must be set')
-		} else {
+		} else if (args.message) { // eslint-disable-line no-negated-condition
 			automate(this, time, args.message)
+		} else {
+			throw new Error('Message must be set')
 		}
 	}
 }
