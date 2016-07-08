@@ -6,7 +6,13 @@ exports.use = function () {
 		if (time < 900000) {
 			throw new Error('Time must be 15 minutes later')
 		} else if (args.message) { // eslint-disable-line no-negated-condition
-			automate(this, time, args.message)
+			var mesaj = null
+			if (typeof args.message === 'object') {
+				mesaj = args.message.join('\n').replace(/\\n/g, '\n')
+			} else {
+				mesaj = args.message.replace(/\\n/g, '\n')
+			}
+			automate(this, time, mesaj)
 		} else {
 			throw new Error('Message must be set')
 		}
