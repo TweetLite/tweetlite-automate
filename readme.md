@@ -1,22 +1,22 @@
 ## Install
 
 ```sh
-npm install twitbot-automate
+npm install twitbot-tweetlite
 ```
 
 ## Usage
 
 ```sh
-twitbot use --src=~/.twitbot/node_modules/twitbot-automate/ --account=johndoe --interval="5 hours" --message="$(cat welcome.txt)"
+tweetlite use --src=~/.tweetlite/node_modules/twitbot-tweetlite/ --account=johndoe --interval="5 hours" --message="$(cat welcome.txt)"
 ```
 ## Module Usage
 
 ```js
-import Twitbot from 'twitbot-core';
-import automate from 'twitbot-automate';
+import TweetLite from 'tweetlite-core';
+import automate from 'tweetlite-automate';
 
 const automate = automate.use();
-const TT = new Twitbot({conf});
+const TT = new TweetLite({conf});
 
 automate.call(TT, {
 	interval:'5 hours',

@@ -1,28 +1,28 @@
 {
-  "name": "twitbot-automate",
-  "version": "0.1.0",
-  "description": "twitbot automate middleware",
+  "name": "tweetlite-automate",
+  "version": "1.0.0",
+  "description": "tweetlite automate middleware",
   "main": "index.js",
   "scripts": {
     "test": "xo index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/c0b41/twitbot-automate.git"
+    "url": "git+https://github.com/TweetLite/tweetlite-automate.git"
   },
   "keywords": [
-    "twitbot",
+    "tweetlite",
     "automate"
   ],
   "author": "c0b41",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/c0b41/twitbot-automate/issues"
+    "url": "https://github.com/TweetLite/tweetlite-automate/issues"
   },
   "xo": {
     "semicolon": false
   },
-  "homepage": "https://github.com/c0b41/twitbot-automate#readme",
+  "homepage": "https://github.com/TweetLite/tweetlite-automate#readme",
   "dependencies": {
     "duration-parser": "^1.0.2"
   },
