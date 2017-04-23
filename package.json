@@ -23,10 +23,9 @@
     "semicolon": false
   },
   "homepage": "https://github.com/TweetLite/tweetlite-automate#readme",
-  "dependencies": {
-    "duration-parser": "^1.0.2"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "tweetlite-core": "latest",
     "xo": "^0.16.0"
   }
 }
