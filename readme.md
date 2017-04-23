@@ -1,13 +1,13 @@
 ## Install
 
 ```sh
-npm install twitbot-tweetlite
+npm install tweetlite-automate
 ```
 
 ## Usage
 
 ```sh
-tweetlite use --src=~/.tweetlite/node_modules/twitbot-tweetlite/ --account=johndoe --interval="5 hours" --message="$(cat welcome.txt)"
+tweetlite use --src=~/.tweetlite/node_modules/tweetlite-automate --account=johndoe --interval="5 hours" --message="$(cat welcome.txt)"
 ```
 ## Module Usage
 
